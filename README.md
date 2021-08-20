@@ -1,5 +1,7 @@
 # MPD218-XP
 
+https://forums.x-plane.org/index.php?/files/file/74367-midi-controls/
+
 This is an AutoHotkey's Script allowing Control of Carenado C208EX Grand Caravan (G1000)  
 https://store.x-plane.org/C208B-GRAND-CARAVAN-EX-G1000_p_1137.html  
 with an Akai MPD218 MIDI Device: Featuring 6 Encoders, and 16 Pads
