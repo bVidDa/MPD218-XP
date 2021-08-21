@@ -17,12 +17,6 @@ I would like to see what else you can do.
 
 ## What's New
 
-### 1.1.1
-Added Support for Default G1000 (Cessna 172 Skyhawk)  
-Two Control Profiles are now Available  
-... Minor Bugfixes and Changes  
-Still Good with Keyboard
-
 ### 1.1.0
 Everything has been reworked from scratch to provide a rich and complex control scheme  
 allowing different operating modes, additional keys, and control over the switches  
@@ -31,3 +25,9 @@ I will Document those Controls another day. I Hope you like the Code.
 Let me know if you find any Bugs, and don't forget to Play with it.  
 
 https://github.com/fashberg/AutoHotkey-Midi
+
+### 1.1.1
+Added Support for Default G1000 (Cessna 172 Skyhawk)  
+Two Control Profiles are now Available  
+... Minor Bugfixes and Changes  
+Still Good with Keyboard
