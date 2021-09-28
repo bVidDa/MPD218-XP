@@ -541,7 +541,7 @@ Button46(mido){
 Global mode1, mode2
 	if (mido.velocity > 0
 	and mode1 == 0 and mode2 == 0) {
-		Cooldown("{PgDn}")
+		Cooldown("{Numpad0}")
 	}
 }
 
@@ -558,7 +558,7 @@ Button47(mido){
 Global mode1, mode2
 	if (mido.velocity > 0
 	and mode1 == 0 and mode2 == 0) {
-		Cooldown("{PgUp}")
+		Cooldown("{NumpadEnter}")
 	}
 }
 
@@ -575,7 +575,7 @@ Button50(mido){
 global mode1, mode2
 	if (mido.velocity > 0
 	and mode1 == 0 and mode2 == 0) {
-		Cooldown("{Numpad0}")
+		Cooldown("{PgDn}")
 	}
 }
 
@@ -592,7 +592,7 @@ Button51(mido){
 global mode1, mode2
 	if (mido.velocity > 0
 	and mode1 == 0 and mode2 == 0) {
-		Cooldown("{NumpadEnter}")
+		Cooldown("{PgUp}")
 	}
 }
 
@@ -718,7 +718,7 @@ MidiNoteOff50:
 	Coolswitch1(50,50,66,82)
 return
 NoteBoth50(){
-	ControlSend, , {Numpad0}, ahk_class X-System
+	ControlSend, , {PgDn}, ahk_class X-System
 }
 
 MidiNoteOff83:
@@ -731,7 +731,7 @@ MidiNoteOff51:
 	Coolswitch1(51,51,67,83)
 return
 NoteBoth51(){
-	ControlSend, , {NumpadEnter}, ahk_class X-System
+	ControlSend, , {PgUp}, ahk_class X-System
 }
 
 MidiNoteOff78:
@@ -744,7 +744,7 @@ MidiNoteOff46:
 	Coolswitch1(46,46,62,78)
 return
 NoteBoth46(){
-	ControlSend, , {PgDn}, ahk_class X-System
+	ControlSend, , {Numpad0}, ahk_class X-System
 }
 
 MidiNoteOff79:
@@ -757,9 +757,8 @@ MidiNoteOff47:
 	Coolswitch1(47,47,63,79)
 return
 NoteBoth47(){
-	ControlSend, , {PgUp}, ahk_class X-System
+	ControlSend, , {NumpadEnter}, ahk_class X-System
 }
-
 
 MidiNoteOff74:
 	Coolswitch2(42,74,58,42)
